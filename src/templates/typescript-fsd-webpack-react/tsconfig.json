@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "strict": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "jsx": "react-jsx",
+        "baseUrl": "./src",
+        // "paths": {               // if u need aliases u can put it's here 
+        //     "@/*": [
+        //         "*"
+        //     ],
+        // }
+    },
+    "include": [
+        "src"
+    ]
+}
