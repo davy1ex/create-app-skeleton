@@ -1,0 +1,28 @@
+{
+  "name": "create-app-skeleton",
+  "version": "1.0.0",
+  "description": "Easy creation basic skeletons for quick start developing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davy1ex/create-app-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davy1ex/create-app-skeleton/issues"
+  },
+  "homepage": "https://github.com/davy1ex/create-app-skeleton#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.6.0"
+  },
+  "bin": {
+    "create-node-skeleton": "./src/bin/cli.js"
+  },
+  "type": "module"
+}
