@@ -9,8 +9,8 @@ import { makePackageJSON } from "./makePackageJSON.js"
 
 
 const ARCHTECTURES = {
-    basic: 'basic',
-    typescriptFSDWebpack: 'typescript-fsd-webpack'
+    basic: 'basic-react-app',
+    typescriptFSDWebpack: 'typescript-fsd-webpack-react'
 }
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
