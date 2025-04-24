@@ -42,7 +42,7 @@ const templateDir = path.resolve(__dirname, '../templates', architecture)
 await copyTemplate(templateDir, targetDir)
 await makePackageJSON(projectName, targetDir)
 
-console.log(chalk.green(`\n✅Your ${architecture} project created in ${chalk.bold(targetDir)}!`))
+console.log(chalk.green(`\n✅ Your ${architecture} project created in ${chalk.bold(targetDir)}!`))
 if (architecture == ARCHTECTURES.basic) {
     console.log(`\n${chalk.cyan('Now u can do next steps:')}`)
     console.log(chalk.gray('----------------------'))
